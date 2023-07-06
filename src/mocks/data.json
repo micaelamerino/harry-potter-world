@@ -1,0 +1,629 @@
+{
+    "libros": [
+        {
+            "id": "1",
+            "titulo": "Harry Potter y la piedra filosofal",
+            "titulo_original": "Harry Potter and the Sorcerer's Stone",
+            "lanzamiento": "26 de junio de 1997",
+            "descripcion": "El día de su cumpleaños, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Debe asistir a una famosa escuela de magia y hechicería, donde entabla una amistad con dos jóvenes que se convertirán en sus compañeros de aventura. Durante su primer año en Hogwarts, descubre que un malévolo y poderoso mago llamado Voldemort está en busca de una piedra filosofal que alarga la vida de quien la posee.",
+            "autora": "J. K . Rowling",
+            "imagen":"https://i.ibb.co/QDVLJHP/harry1.jpg"
+        },
+        {
+            "id": "2",
+            "titulo": "Harry Potter y la cámara secreta",
+            "titulo_original": "Harry Potter and the chamber of secrets",
+            "lanzamiento": "2 de julio de 1998",
+            "descripcion": "Harry Potter y los estudiantes de segundo año investigan una malévola amenaza para sus compañeros de clases de Hogwarts, una amenazante bestia que se esconde dentro del castillo.",
+            "autora": "J. K . Rowling",
+            "imagen":"https://i.ibb.co/b7LhjYQ/harry2.jpg"
+        },
+        {
+            "id": "3",
+            "titulo": "Harry Potter y el prisionero de Azkaban",
+            "titulo_original": "Harry Potter and the Prisoner of Azkaban",
+            "lanzamiento": "8 de julio de 1999",
+            "descripcion": "El tercer año de estudios de Harry en Hogwarts se ve amenazado por la fuga de Sirius Black de la prisión de Azkaban. Al parecer, se trata de un peligroso mago que fue cómplice de Lord Voldemort y que intentará vengarse de Harry Potter.",
+            "autora": "J. K . Rowling",
+            "imagen":"https://i.ibb.co/n73YTC8/harry4.jpg"
+        },
+        {
+            "id": "4",
+            "titulo": "Harry Potter y el cáliz de fuego",
+            "titulo_original": "Harry Potter and the Goblet of Fire",
+            "lanzamiento": "8 de julio de 2000",
+            "descripcion": "Hogwarts se prepara para el Torneo de los Tres Magos, en el que competirán tres escuelas de hechicería. Para sorpresa de todos, Harry Potter es elegido para participar en la competencia, en la que deberá luchar contra dragones, internarse en el agua y enfrentarse a sus mayores miedos.",
+            "autora": "J. K . Rowling",
+            "imagen":"https://i.ibb.co/4FQt7jW/harry3.jpg"
+        },
+        {
+            "id": "5",
+            "titulo": "Harry Potter y la orden del Fénix",
+            "titulo_original": "Harry Potter and the Order of the Phoenix",
+            "lanzamiento": "21 de junio de 2003",
+            "descripcion": "En su quinto año en Hogwarts, Harry descubre que muchos integrantes de la comunidad de magos no conocen la verdad acerca de su encuentro con Lord Voldemort. Cornelius Fudge, ministro de magia, designa a Dolores Umbridge como maestra de defensa contra de las artes oscuras porque cree que el profesor Dumbledore planea apoderarse de su trabajo. Pero sus enseñanzas son inadecuadas, por lo que Harry prepara a los estudiantes para defender la escuela en contra del mal.",
+            "autora": "J. K . Rowling",
+            "imagen":"https://i.ibb.co/P5Lhj1y/harry5.jpg"
+        },
+        {
+            "id": "6",
+            "titulo": "Harry Potter y el misterio del príncipe",
+            "titulo_original": "Harry Potter and the Half-Blood Prince",
+            "lanzamiento": "16 de julio de 2005",
+            "descripcion": "Harry descubre un poderoso libro y, mientras trata de descubrir sus orígenes, colabora con Dumbledore en la búsqueda de una serie de objetos mágicos que ayudarán en la destrucción de Lord Voldemort.",
+            "autora": "J. K . Rowling",
+            "imagen":"https://i.ibb.co/V2F1Ftg/harry6.jpg"
+        },
+        {
+            "id": "7",
+            "titulo": "Harry Potter y las reliquias de la muerte",
+            "titulo_original": "Harry Potter and the Deathly Hallows",
+            "lanzamiento": "21 de julio de 2007",
+            "descripcion": "Harry, Ron y Hermione se van a una peligrosa misión para localizar y destruir el secreto de la inmortalidad y destrucción de Voldemort - los Horrocruces. Solos, sin la guía de sus profesores o la protección del Profesor Dumbledore, los tres amigos deben apoyarse el uno en el otro más que nunca. Pero hay Fuerzas Oscuras en medio que amenazan con separarlos. Harry Potter se está acercando cada vez más a la tarea para la que se ha preparado desde el primer día que pisó Hogwarts: la última batalla con Voldemort.",
+            "autora": "J. K . Rowling",
+            "imagen":"https://i.ibb.co/jWQZG8D/harry7.jpg"
+        },
+        {
+            "id": "8",
+            "titulo": "Harry Potter y el legado maldito",
+            "titulo_original": "Harry Potter and the Cursed Child",
+            "lanzamiento": "30 de julio de 2016",
+            "descripcion": "El segundo hijo de Harry entró a Hogwarts, pero en Slytherin. Su relación con Harry cada vez es peor y se hizo muy amigo del hijo de Draco, Scorpius Malfoy que se dice que es el hijo de Lord Voldemort",
+            "autora": "J. K . Rowling",
+            "imagen":"https://i.ibb.co/2qvnT2d/harry8.jpg"
+        }
+    ],
+    "personajes": [
+        {
+            "id": 1,
+            "personaje": "Harry James Potter",
+            "apodo": "Harry",
+            "descripcion":"Harry es fuertemente guiado por su propia conciencia, y tiene un gran sentido de lo que está bien y mal. Al tener acceso muy limitado a adultos de 'confianza', se ve forzado, para alguien tan joven, a tomar sus propias decisiones, por lo que comete errores repetidamente, pero al final, hace lo que su conciencia le dice.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Daniel Radcliffe",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/harry_potter.png"
+            },
+            {
+            "id": 2,
+            "personaje": "Hermione Jean Granger",
+            "apodo": "Hermione",
+            "descripcion":"Es hija de padres muggles, y la mejor amiga de Harry Potter y Ron Weasley. Ella tiene un mérito adicional que sobresale académicamente, y es un personaje muy lógico, justo y de buen carácter",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Emma Watson",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/hermione_granger.png"
+            },
+            {
+            "id": 3,
+            "personaje": "Ron Weasley",
+            "apodo": "Ron",
+            "descripcion":"Se caracteriza por ser fiel, honrado, prudente, divertido, celoso, sarcástico, algo cascarrabias… pero ante todo un amigo leal. Le encanta el ajedrez, el Quidditch, las bromas y estar con sus amigos. Detesta las arañas, la ropa de segunda mano que tiene que usar y que Hermione le corrija. Es muy inseguro debido a los méritos acumulados por sus hermanos y la pobreza de su familia.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Rupert Grint",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/ron_weasley.png"
+            },
+            {
+            "id": 4,
+            "personaje": "Fred Weasley",
+            "apodo": "Fred",
+            "descripcion":"Tanto él como su hermano gemelo eran estudiantes populares, conocidos por su sentido del humor, bromas, y por ser Golpeadores del Equipo de Quidditch de Gryffindor. Fue asesinado en una explosión causada por el Mortífago Augustus Rookwood.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "James Phelps",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/fred_weasley.png"
+            },
+            {
+            "id": 5,
+            "personaje": "George Weasley",
+            "apodo": "George",
+            "descripcion":"George dejó Hogwarts antes de la graduación para convertirse en un empresario exitoso, junto a su hermano gemelo abrieron la tienda de bromas Sortilegios Weasley en el Callejón Diagon. Él era un miembro de la Orden del Fénix y luchó en la Batalla de los Siete Potters y la Batalla de Hogwarts; en la segunda, Fred murió, dejando a George devastado.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Oliver Phelps",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/george_weasley.png"
+            },
+            {
+            "id": 6,
+            "personaje": "Bill Weasley",
+            "apodo": "Bill",
+            "descripcion":"Es el hijo mayor de Arthur Weasley y Molly Weasley. Estudió en Hogwarts desde septiembre de 1982 hasta junio de 1989, donde logró ser Prefecto y Premio Anual. En 1995 volvió a Inglaterra para unirse a la Orden del Fénix y enfrentarse a Lord Voldemort.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Domhnall Gleeson",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/bill_weasley.png"
+            },
+            {
+            "id": 7,
+            "personaje": "Ginny Weasley",
+            "apodo": "Ginny",
+            "descripcion":"Es una bruja de sangre pura, la séptima y única hija de Arthur y Molly Weasley. Es enérgica, independiente y, a menudo, dice lo que piensa. Tiene una personalidad enérgica y vivaz. Se convierte en una bruja fuerte y capaz, luchando junto a Harry en más de una ocasión.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Bonnie Right",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/ginny_weasley.png"
+            },
+            {
+            "id": 8,
+            "personaje": "Molly Weasley",
+            "apodo": "Molly",
+            "descripcion":" Está casada con Arthur Weasley y con él es madre de siete hijos: Bill, Charlie, Percy, los gemelos Fred y George, Ron y Ginny.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Julie Walters",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/molly_weasley.png"
+            },
+            {
+            "id": 9,
+            "personaje": "Arthur Weasley",
+            "apodo": "Arthur",
+            "descripcion":"Es un mago de sangre pura al servicio del Ministerio de Magia, así como un miembro de la Orden del Fénix reconstruida en 1995. Él era un firme creyente en la igualdad de todas las personas mágicas y muggles y el patriarca de la Familia Weasley.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Mark Williams",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/arthur_weasley.png"
+            },
+            {
+            "id": 10,
+            "personaje": "Neville Longbottom",
+            "apodo": "Neville",
+            "descripcion":"Es uno de los partidarios más fuertes de Harry en el transcurso de la serie y también se vuelve amigo cercano de Ron , Hermione , Ginny y Luna. Neville juega un papel importante en los dos libros finales y en la lucha contra Lord Voldemort, destruyendo el Horrocrux final, Nagini, con la Espada de Gryffindor.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Matthew Lewis",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/neville_longbottom.png"
+            },
+            {
+            "id": 11,
+            "personaje": "Luna Lovegood",
+            "apodo": "Luna",
+            "descripcion":"Luna cree cosas solo por fe. Cree que 'el ingenio sin medida es el mayor tesoro del hombre'. A pesar de su extravagancia, Luna suele ser perspicaz acerca de la naturaleza humana, y Harry nota su habilidad para la honestidad contundente. También tiene en muy alta estima a sus amigos.",
+            "casaDeHogwarts": "Ravenclaw",
+            "interpretado_por": "Evanna Lynch",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/luna_lovegood.png"
+            },
+            {
+            "id": 12,
+            "personaje": "Draco Malfoy",
+            "apodo": "Draco",
+            "descripcion":"Es un mago de sangre pura y el único hijo de Lucius y Narcissa Malfoy. Por ser el hijo de un mortífago, a Draco le enseñaron a creer firmemente en la importancia de la pureza de sangre. Cree que la riqueza y la posición social de su familia le dan derecho a intimidar a los más pobres que él, como a Ron Weasley. También desprecia el estatus de Hermione Granger como nacida muggle al referirse a ella como una sangre sucia",
+            "casaDeHogwarts": "Slytherin",
+            "interpretado_por": "Tom Felton",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/draco_malfoy.png"
+            },
+            {
+            "id": 13,
+            "personaje": "Albus Percival Dumbledore",
+            "apodo": "Dumbledore",
+            "descripcion":"Es el mago más poderoso de toda la saga y comparable a antagonistas tales como Grindelwald o lord Voldemort, es también el más moral de todos: su lema consiste en la afirmación de que «el amor es la magia más importante y poderosa del mundo». Es, durante gran parte de la historia, el director de Hogwarts y el creador de la Orden del Fénix.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Richard Harris",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/albus_dumbledore.png"
+            },
+            {
+            "id": 14,
+            "personaje": "Minerva McGonagall",
+            "apodo": "Minerva",
+            "descripcion":"Es una bruja mestiza ya que su padre era muggle y su madre una bruja. Es profesora en el Colegio Hogwarts de Magia y Hechicería , directora de la Casa Gryffindor , profesora de Transformaciones , directora adjunta de Albus Dumbledore y miembro de la Orden del Fénix . ",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Maggie Smith",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/minerva_mcgonnagall.png"
+            },
+            {
+            "id": 15,
+            "personaje": "Remus Lupin",
+            "apodo": "Lupin",
+            "descripcion":"Lupin es un mestizo, nacido del mago Lyall Lupin y su esposa muggle Hope Howell. Aparece por primera vez en 'Harry Potter y el Prisionero de Azkaban' como el nuevo profesor de Defensa Contra las Artes Oscuras . Lupin permanece en la historia luego de su renuncia a este cargo, sirviendo como amigo y aliado del personaje central, Harry Potter",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "David Thewils",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/remus_lupin.png"
+            },
+            {
+            "id": 16,
+            "personaje": "Rubeus Hagrid",
+            "apodo": "Hagrid",
+            "descripcion":"Es un semigigante, guardián de las llaves y los terrenos de Hogwarts. Es amigable, compasivo, y muy leal a sus pares, en especial a Dumbledore, a quien se refiere como el mago más grande de todos.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Robbie Coltrane",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/rubeus_hagrid.png"
+            },
+            {
+            "id": 17,
+            "personaje": "Sirius Black",
+            "apodo": "Sirius",
+            "descripcion":"Mago de sangre pura. Es el padrino de Harry Potter. Sirius es mencionado en 'Harry Potter y la piedra filosofal' y apareció por primera vez en 'Harry Potter y el prisionero de Azkaban', y es conocido como el mismo prisionero.  Formó parte de la Orden del Fénix para luchar contra Lord Voldemort y sus mortífagos durante la Primera Guerra Mágica.",
+            "casaDeHogwarts": "Gryffindor",
+            "interpretado_por": "Gary Oldman",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/sirius_black.png"
+            },
+            {
+            "id": 28,
+            "personaje": "Severus Snape",
+            "apodo": "Snape",
+            "descripcion":"Es un profesor odiado por todos, excepto por los alumnos de su casa. Algunos incluso le temen, como es el caso de Neville Longbottom, y es frecuente que su carácter sea descrito como ácido, desagradable, sarcástico e incluso cruel. A pesar de su comportamiento frío y calmado, Snape ridiculiza constantemente a los alumnos que no son de Slytherin, en especial a Harry Potter, Ron Weasley y Neville Longbottom. Snape es un mago al que raramente se le pilla por sorpresa, que no suele perder los nervios o las palabras y que no se intimida con facilidad.",
+            "casaDeHogwarts": "Slytherin",
+            "interpretado_por": "Alan Rickman",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/severus_snape.png"
+            },
+            {
+            "id": 19,
+            "personaje": "Bellatrix Lestrange",
+            "apodo": "Bella",
+            "descripcion":"Es una Mortífaga, considerada la 'última y mejor teniente' de Lord Voldemort",
+            "casaDeHogwarts": "Slytherin",
+            "interpretado_por": "Helena Bonham Carter",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/bellatrix_lestrange.png"
+            },
+            {
+            "id": 20,
+            "personaje": "Lord Voldemort",
+            "apodo": "Voldemort",
+            "descripcion":"En la historia, Voldemort es el enemigo principal de Harry Potter, quien según una profecía, tiene el poder de vencerlo. La comunidad mágica teme tanto a Voldemort que prefiere referirse a él como «Quien tú sabes», «El que no debe ser nombrado», o el «Innombrable» ",
+            "casaDeHogwarts": "Slytherin",
+            "interpretado_por": "Ralph Fiennes",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/lord_voldemort.png"
+            },
+            {
+            "id": 21,
+            "personaje": "Argus Filch",
+            "apodo": "Filch",
+            "descripcion": "Vigilante y celador de Hogwarts. Es un hombre enojón, con odio hacia los estudiantes, le gusta 'atraparlos' y castigarlos",
+            "casaDeHogwarts": "ninguna",
+            "interpretado_por": "David Bradley",
+            "imagen": "https://raw.githubusercontent.com/fedeperin/harry-potter-api/main/imagenes/argus_filch.png"
+            }
+    ],
+    "hechizos": [
+        {
+            "id": 1,
+            "hechizo": "Accio",
+            "uso": "Encanto de invocación"
+            },
+            {
+            "id": 2,
+            "hechizo": "Glisseo",
+            "uso": "Convierte una escalera en un tobogán"
+            },
+            {
+            "id": 3,
+            "hechizo": "Impervius",
+            "uso": "Protege al lanzador de una variedad de sustancias, incluidos el agua y el fuego."
+            },
+            {
+            "id": 4,
+            "hechizo": "Wingardium Leviosa/Locomotor",
+            "uso": "Levita objetos"
+            },
+            {
+            "id": 5,
+            "hechizo": "Scourgify",
+            "uso": "Limpia cosas"
+            },
+            {
+            "id": 6,
+            "hechizo": "Portus",
+            "uso": "Crea un traslador"
+            },
+            {
+            "id": 7,
+            "hechizo": "Orchideous",
+            "uso": "Crece flores desde el final de la varita"
+            },
+            {
+            "id": 8,
+            "hechizo": "Lumos",
+            "uso": "Hace que la varita emita luz"
+            },
+            {
+            "id": 9,
+            "hechizo": "Reparo",
+            "uso": "Repara objetos rotos"
+            },
+            {
+            "id": 10,
+            "hechizo": "Reducio",
+            "uso": "Contrae objetos"
+            },
+            {
+            "id": 11,
+            "hechizo": "Pack",
+            "uso": "Empaca baúles y equipaje"
+            },
+            {
+            "id": 12,
+            "hechizo": "Riddikulus",
+            "uso": "Transforma los Boggarts en una forma divertida"
+            },
+            {
+            "id": 13,
+            "hechizo": "Protego",
+            "uso": "Protege al lanzador de las maldiciones"
+            },
+            {
+            "id": 14,
+            "hechizo": "Muffliato",
+            "uso": "Evita que otras personas cercanas escuchen conversaciones"
+            },
+            {
+            "id": 15,
+            "hechizo": "Silencio/Langlock",
+            "uso": "Evita que alguien hable (pegando la lengua al paladar)"
+            },
+            {
+            "id": 16,
+            "hechizo": "Expelliarmus",
+            "uso": "Encanto de desarme"
+            },
+            {
+            "id": 17,
+            "hechizo": "Oblivate",
+            "uso": "Borra recuerdos"
+            },
+            {
+            "id": 18,
+            "hechizo": "Episkey",
+            "uso": "Cura heridas leves"
+            },
+            {
+            "id": 19,
+            "hechizo": "Tergeo",
+            "uso": "Limpia superficies"
+            },
+            {
+            "id": 20,
+            "hechizo": "Relashio",
+            "uso": "Obliga al objetivo a soltar lo que sea que esté sosteniendo"
+            },
+            {
+            "id": 21,
+            "hechizo": "Confundo",
+            "uso": "Causa confusiones y hace que otros sean fácilmente susceptibles a la influencia."
+            },
+            {
+            "id": 22,
+            "hechizo": "Expecto Patronum",
+            "uso": "Encanto Patronus"
+            },
+            {
+            "id": 23,
+            "hechizo": "Ferula",
+            "uso": "Conjura vendajes"
+            },
+            {
+            "id": 24,
+            "hechizo": "Evanesco",
+            "uso": "Hechizo de desaparición"
+            },
+            {
+            "id": 25,
+            "hechizo": "Alohomora",
+            "uso": "Abre cerraduras"
+            },
+            {
+            "id": 26,
+            "hechizo": "Nox",
+            "uso": "Apaga lumos"
+            },
+            {
+            "id": 27,
+            "hechizo": "Quietus",
+            "uso": "Silencia la voz mágicamente amplificada"
+            },
+            {
+            "id": 28,
+            "hechizo": "Incendio",
+            "uso": "Crea fuego"
+            },
+            {
+            "id": 29,
+            "hechizo": "Homenum Revelio",
+            "uso": "Revelar personas cercanas"
+            },
+            {
+            "id": 30,
+            "hechizo": "Prior Incantato",
+            "uso": "Revela el último hechizo lanzado"
+            },
+            {
+            "id": 31,
+            "hechizo": "Finite Incantatem",
+            "uso": "Niega los efectos de muchos hechizos."
+            },
+            {
+            "id": 32,
+            "hechizo": "Erecto",
+            "uso": "Levanta carpas u otras estructuras."
+            },
+            {
+            "id": 33,
+            "hechizo": "Diffindo",
+            "uso": "Corta o rasga material"
+            },
+            {
+            "id": 34,
+            "hechizo": "Stupefy",
+            "uso": "Aturde al objetivo"
+            },
+            {
+            "id": 35,
+            "hechizo": "Repelo Muggletum",
+            "uso": "Repele Muggles"
+            },
+            {
+            "id": 36,
+            "hechizo": "Avada Kedavra",
+            "uso": "La maldición asesina"
+            },
+            {
+            "id": 37,
+            "hechizo": "Aguamenti",
+            "uso": "Dispara agua con la varita"
+            },
+            {
+            "id": 38,
+            "hechizo": "Geminio",
+            "uso": "Crea un duplicado temporal y sin valor de cualquier objeto"
+            },
+            {
+            "id": 39,
+            "hechizo": "Locomotor Mortis",
+            "uso": "Maldición de bloqueo de piernas"
+            },
+            {
+            "id": 40,
+            "hechizo": "Anapneo",
+            "uso": "Limpia las vías respiratorias de alguien"
+            },
+            {
+            "id": 41,
+            "hechizo": "Reducto",
+            "uso": "Explota objeto"
+            },
+            {
+            "id": 42,
+            "hechizo": "Obscuro",
+            "uso": "Objetivo con los ojos vendados"
+            },
+            {
+            "id": 43,
+            "hechizo": "Impedimenta",
+            "uso": "Congela a alguien que avanza hacia ti"
+            },
+            {
+            "id": 44,
+            "hechizo": "Cave Inimicum/Protego Totalum",
+            "uso": "Fortalece las defensas de un área"
+            },
+            {
+            "id": 45,
+            "hechizo": "Meteolojinx Recanto",
+            "uso": "Acaba con los efectos de los hechizos meteorológicos"
+            },
+            {
+            "id": 46,
+            "hechizo": "Specialis Revelio",
+            "uso": "Revela propiedades mágicas ocultas en un objeto."
+            },
+            {
+            "id": 47,
+            "hechizo": "Descendo",
+            "uso": "Mueve objetos hacia abajo"
+            },
+            {
+            "id": 48,
+            "hechizo": "Defodio",
+            "uso": "Talla a través de la piedra y el acero"
+            },
+            {
+            "id": 49,
+            "hechizo": "Aparecium",
+            "uso": "Hacer aparecer tinta invisible"
+            },
+            {
+            "id": 50,
+            "hechizo": "Piertotum Locomotor",
+            "uso": "Anima estatuas"
+            },
+            {
+            "id": 51,
+            "hechizo": "Imperio",
+            "uso": "Hace que el objetivo obedezca cada orden"
+            },
+            {
+            "id": 52,
+            "hechizo": "Fidelius Charm",
+            "uso": "Une un secreto al alma de un Guardián de Secretos"
+            },
+            {
+            "id": 53,
+            "hechizo": "Avis/Oppugno",
+            "uso": "Dispara bandada de pájaros con varita"
+            },
+            {
+            "id": 54,
+            "hechizo": "Expulso",
+            "uso": "Explota objetos"
+            },
+            {
+            "id": 55,
+            "hechizo": "Legilimens",
+            "uso": "Revela recuerdos y pensamientos del objetivo."
+            },
+            {
+            "id": 56,
+            "hechizo": "Duro",
+            "uso": "Endurece los objetos"
+            },
+            {
+            "id": 57,
+            "hechizo": "Sonorus",
+            "uso": "Amplifica la voz de uno"
+            },
+            {
+            "id": 58,
+            "hechizo": "Deprimo",
+            "uso": "Crea una gran presión hacia abajo"
+            },
+            {
+            "id": 59,
+            "hechizo": "Levicorpus",
+            "uso": "Levita el objetivo por el tobillo"
+            },
+            {
+            "id": 60,
+            "hechizo": "Liberacorpus",
+            "uso": "Reduce el objetivo de levicorpus"
+            },
+            {
+            "id": 61,
+            "hechizo": "Mobilicorpus",
+            "uso": "Mueve cuerpos"
+            },
+            {
+            "id": 62,
+            "hechizo": "Confringo",
+            "uso": "Explota objetos en llamas"
+            },
+            {
+            "id": 63,
+            "hechizo": "Densaugeo",
+            "uso": "Hace que los dientes crezcan rápidamente"
+            },
+            {
+            "id": 64,
+            "hechizo": "Incarcarous",
+            "uso": "Ata a alguien con cuerdas"
+            },
+            {
+            "id": 65,
+            "hechizo": "Deletrius",
+            "uso": "Descarta los efectos de Prior Incantato"
+            },
+            {
+            "id": 66,
+            "hechizo": "Rictusempra",
+            "uso": "Encanto de cosquillas"
+            },
+            {
+            "id": 67,
+            "hechizo": "Petrificus Totalus",
+            "uso": "El objetivo de renderizado está completamente inmóvil"
+            },
+            {
+            "id": 68,
+            "hechizo": "Fiendfyre Curse",
+            "uso": "Hace fuego maldito"
+            },
+            {
+            "id": 69,
+            "hechizo": "Tarantallegra",
+            "uso": "Obliga al objetivo a bailar"
+            },
+            {
+            "id": 70,
+            "hechizo": "Morsmordre",
+            "uso": "Conjura la Marca Tenebrosa"
+            },
+            {
+            "id": 71,
+            "hechizo": "Sectumsempra",
+            "uso": "Provoca laceraciones graves"
+            },
+            {
+            "id": 72,
+            "hechizo": "Crucio",
+            "uso": "Causa un dolor inmenso"
+            }
+    ]
+}
