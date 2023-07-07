@@ -61,7 +61,9 @@ const Personajes = () => {
                 alt={`Imagen del personaje: ${p.personaje}`}
                 loading="lazy"
               />
-              <button className="bg-yellow-600 hover:bg-opacity-80 rounded-full px-2 py-1 mt-2">
+              <button 
+              onClick={()=>navigate(`/descripcion/${p.id}`)}
+              className="bg-yellow-600 hover:bg-opacity-80 rounded-full px-2 py-1 mt-2">
                 VER MÁS
               </button>
             </article>

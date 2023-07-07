@@ -21,7 +21,7 @@ const Routing = () => {
         <Route path="/detalles/:id" element={<Details />} />
         <Route path="/hechizos" element={<Hechizos />} />
         <Route path="/libros" element={<Libros />} />
-        <Route path="/descripcion" element={<Description />} />
+        <Route path="/descripcion/:id" element={<Description />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>

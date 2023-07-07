@@ -1,20 +1,36 @@
 import { useNavigate } from "react-router-dom";
 import results from "../mocks/data.json";
+import { useState } from "react";
 
 const Hechizos = () => {
-  const hechizos = results.hechizos;
+  const datos = results.hechizos;
+  const [hechizos, setHechizos] = useState(datos);
+  const [sort, setSort] = useState(false);
+
   const navigate = useNavigate();
 
-  
+  const handleSort = () => {
+    setSort(!sort);
+    if (sort) {
+      setHechizos(datos);
+    } else {
+      const newArray = [...hechizos].sort((a, b) =>
+        a.hechizo.localeCompare(b.hechizo)
+      );
+      setHechizos(newArray);
+    }
+  };
+
   return (
     <section className="p-4">
       <button onClick={() => navigate(-1)}>Volver</button>
 
       <header className="flex flex-col items-center gap-4 mb-5">
         <h1>¡Los mejores hechizos del mágico mundo!</h1>
-        <button className="bg-yellow-600 hover:bg-opacity-80 rounded-full px-2 py-1">
-          Ordenar alfabéticamente{" "}
-        </button>
+        <form className="flex items-center">
+          <label>Ordenar alfabéticamente</label>
+          <input className="w-6" type="checkbox" onChange={handleSort} checked={sort} />
+        </form>
       </header>
 
       <main className="flex place-content-center">
