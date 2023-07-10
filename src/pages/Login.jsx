@@ -1,5 +1,5 @@
 import "./Login.css";
-import image from "../assets/img-logo.png";
+import image from "../assets/img-logo.webp";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -44,6 +44,7 @@ const Login = ({ setUser }) => {
             name="name"
             placeholder="Nombre de usuario"
             autoComplete="on"
+            autoFocus
           />
           <input
             onChange={handleChange}

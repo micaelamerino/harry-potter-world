@@ -1,9 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import results from "../mocks/data.json";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { dataContext } from "../context/DataContext.jsx";
 
 const Personajes = () => {
-  const datos = results.personajes;
+  const { data } = useContext(dataContext);
+  const datos = data.personajes;
   const [personajes, setPersonajes] = useState(datos);
   const [search, setSearch] = useState("");
   const [error, setError] = useState("");
@@ -52,7 +53,7 @@ const Personajes = () => {
       </header>
 
       <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3 justify-items-center  text-center">
-        {personajes.length > 0 &&
+        {personajes &&
           personajes?.map((p) => (
             <article key={p.id} className="cursor-pointer">
               <h3 className="mb-2">{p.personaje}</h3>
@@ -60,10 +61,12 @@ const Personajes = () => {
                 src={p.imagen}
                 alt={`Imagen del personaje: ${p.personaje}`}
                 loading="lazy"
+                className="h-56 w-48 object-cover"
               />
-              <button 
-              onClick={()=>navigate(`/descripcion/${p.id}`)}
-              className="bg-yellow-600 hover:bg-opacity-80 rounded-full px-2 py-1 mt-2">
+              <button
+                onClick={() => navigate(`/descripcion/${p.id}`)}
+                className="bg-yellow-600 hover:bg-opacity-80 rounded-full px-2 py-1 mt-2"
+              >
                 VER MÁS
               </button>
             </article>

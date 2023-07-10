@@ -1,17 +1,17 @@
 .bg-personajes {
-    background-image: url("../assets/personajes.jpg");
+    background-image: url("../assets/personajes.webp");
     background-position: bottom;
     background-size: cover;
 }
 
 .bg-hechizos {
-    background-image: url("../assets/hechizos.jpg");
+    background-image: url("../assets/hechizos.webp");
     background-position: bottom;
     background-size: cover;
 }
 
 .bg-libros {
-    background-image: url("../assets/libros.jpg");
+    background-image: url("../assets/libros.webp");
     background-position: top;
     background-size: cover;
 }
