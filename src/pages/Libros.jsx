@@ -1,15 +1,15 @@
 import { useContext } from "react";
-import { useNavigate } from "react-router-dom";
 import { dataContext } from "../context/DataContext";
+import Button from "../components/Button";
+import { useNavigate } from "react-router-dom";
 
 const Libros = () => {
   const { data } = useContext(dataContext);
   const libros = data.libros;
   const navigate = useNavigate();
-
   return (
     <section className="p-4">
-      <button onClick={() => navigate(-1)}>Volver</button>
+      <Button />
       <header className="text-center mb-5">
         <h1>Historias increibles</h1>
       </header>

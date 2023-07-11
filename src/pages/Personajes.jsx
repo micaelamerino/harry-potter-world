@@ -1,6 +1,7 @@
-import { useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import { dataContext } from "../context/DataContext.jsx";
+import Button from "../components/Button.jsx";
+import { useNavigate } from "react-router-dom";
 
 const Personajes = () => {
   const { data } = useContext(dataContext);
@@ -35,14 +36,14 @@ const Personajes = () => {
 
   return (
     <section className="p-4">
-      <button onClick={() => navigate(-1)}>Volver</button>
-
+      <Button/>
       <header className="flex flex-col items-center gap-4 mb-5">
         <h1>Tus personajes favoritos</h1>
         <form onSubmit={handleSubmit}>
           <input
             className="bg-white text-black"
             type="text"
+            name="search"
             placeholder="Harry, Voldemort, Albus..."
             value={search}
             onChange={handleChange}

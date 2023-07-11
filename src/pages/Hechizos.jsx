@@ -1,14 +1,13 @@
-import { useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import { dataContext } from "../context/DataContext";
+import Button from "../components/Button";
 
 const Hechizos = () => {
   const { data } = useContext(dataContext);
   const datos = data.hechizos;
+
   const [hechizos, setHechizos] = useState(datos);
   const [sort, setSort] = useState(false);
-
-  const navigate = useNavigate();
 
   const handleSort = () => {
     setSort(!sort);
@@ -24,13 +23,13 @@ const Hechizos = () => {
 
   return (
     <section className="p-4">
-      <button onClick={() => navigate(-1)}>Volver</button>
-
+      <Button/>
       <header className="flex flex-col items-center gap-4 mb-5">
         <h1>¡Los mejores hechizos del mágico mundo!</h1>
         <form className="flex items-center">
-          <label>Ordenar alfabéticamente</label>
+          <label htmlFor="orden">Ordenar alfabéticamente</label>
           <input
+            id="orden"
             className="w-6"
             type="checkbox"
             onChange={handleSort}

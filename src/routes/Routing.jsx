@@ -7,17 +7,16 @@ import Libros from "../pages/Libros";
 import Dashboard from "../pages/Dashboard";
 import Details from "../pages/Details";
 import Description from "../pages/Description";
-import { useState } from "react";
 import DataProvider from "../context/DataContext.jsx";
 
 const Routing = () => {
-  const [user, setUser] = useState([]);
+  
   return (
     <DataProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Login setUser={setUser} />} />
-          <Route path="/dashboard" element={<Dashboard user={user} />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/home" element={<Navigate to={"/"} />} />
           <Route path="/personajes" element={<Personajes />} />
           <Route path="/detalles/:id" element={<Details />} />

@@ -1,9 +1,10 @@
 import "./Login.css";
 import image from "../assets/img-logo.webp";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { dataContext } from "../context/DataContext";
 
-const Login = ({ setUser }) => {
+const Login = () => {
   const navigate = useNavigate();
 
   const [datos, setDatos] = useState({
@@ -11,6 +12,8 @@ const Login = ({ setUser }) => {
     email: "",
     password: "",
   });
+
+  const { setUser } = useContext(dataContext);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -25,7 +28,7 @@ const Login = ({ setUser }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (datos.name === "" || datos.email === "" || datos.password === "") {
-      setError("*Todos los campos son requeridos");
+      return setError("*Todos los campos son requeridos");
     }
     setUser(datos.name);
     navigate("/dashboard");

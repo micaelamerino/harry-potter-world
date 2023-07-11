@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import { dataContext } from "../context/DataContext";
 
-const NavBar = ({ user }) => {
+const NavBar = () => {
+  const { user } = useContext(dataContext);
   const navigate = useNavigate();
   const handleClick = () => {
     navigate("/");

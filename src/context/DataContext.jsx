@@ -4,6 +4,7 @@ export const dataContext = createContext();
 
 const DataProvider = ({ children }) => {
   const [data, setData] = useState([]);
+  const [user, setUser] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:5173/data.json")
@@ -12,7 +13,7 @@ const DataProvider = ({ children }) => {
   }, []);
 
   return (
-    <dataContext.Provider value={{ data }}>{children}</dataContext.Provider>
+    <dataContext.Provider value={{ data, user, setUser }}>{children}</dataContext.Provider>
   );
 };
 export default DataProvider;
