@@ -37,6 +37,7 @@ const Personajes = () => {
   return (
     <section className="p-4">
       <Button/>
+
       <header className="flex flex-col items-center gap-4 mb-5">
         <h1>Tus personajes favoritos</h1>
         <form onSubmit={handleSubmit}>
@@ -46,6 +47,7 @@ const Personajes = () => {
             name="search"
             placeholder="Harry, Voldemort, Albus..."
             value={search}
+            autoComplete="on"
             onChange={handleChange}
           />
           <button className="bg-white px-2 ml-2">Buscar</button>
@@ -54,7 +56,7 @@ const Personajes = () => {
       </header>
 
       <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3 justify-items-center  text-center">
-        {personajes &&
+        {personajes.length>0 &&
           personajes?.map((p) => (
             <article key={p.id} className="cursor-pointer">
               <h3 className="mb-2">{p.personaje}</h3>

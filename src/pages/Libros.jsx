@@ -10,12 +10,13 @@ const Libros = () => {
   return (
     <section className="p-4">
       <Button />
+
       <header className="text-center mb-5">
         <h1>Historias increibles</h1>
       </header>
 
       <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 justify-items-center">
-        {libros &&
+        {libros.length>0 &&
           libros?.map((l) => (
             <article key={l.id} className="flex flex-col items-center gap-3">
               <h3>{l.titulo}</h3>
@@ -23,6 +24,7 @@ const Libros = () => {
                 src={l.imagen}
                 alt={`Portada del libro ${l.titulo}`}
                 className="h-72 object-contain"
+                loading="lazy"
               />
               <button
                 onClick={() => navigate(`/detalles/${l.id}`)}
