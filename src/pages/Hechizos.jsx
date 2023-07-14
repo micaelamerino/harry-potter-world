@@ -47,7 +47,7 @@ const Hechizos = () => {
             </tr>
           </thead>
           <tbody>
-            {hechizos.length>0 &&
+            {hechizos &&
               hechizos?.map((h) => (
                 <tr key={h.id}>
                   <td className="border-b border-slate-300 text-yellow-300">

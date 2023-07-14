@@ -56,7 +56,7 @@ const Personajes = () => {
       </header>
 
       <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3 justify-items-center  text-center">
-        {personajes.length>0 &&
+        {personajes &&
           personajes?.map((p) => (
             <article key={p.id} className="cursor-pointer">
               <h3 className="mb-2">{p.personaje}</h3>

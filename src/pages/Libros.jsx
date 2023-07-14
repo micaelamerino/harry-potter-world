@@ -16,7 +16,7 @@ const Libros = () => {
       </header>
 
       <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 justify-items-center">
-        {libros.length>0 &&
+        {libros &&
           libros?.map((l) => (
             <article key={l.id} className="flex flex-col items-center gap-3">
               <h3>{l.titulo}</h3>
