@@ -23,7 +23,7 @@ const Hechizos = () => {
 
   return (
     <section className="p-4">
-      <Button/>
+      <Button />
       <header className="flex flex-col items-center gap-4 mb-5">
         <h1>¡Los mejores hechizos del mágico mundo!</h1>
         <form className="flex items-center">

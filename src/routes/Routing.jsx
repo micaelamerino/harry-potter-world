@@ -1,4 +1,4 @@
-import { Routes, BrowserRouter, Route, Navigate } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Error from "../pages/Error";
 import Login from "../pages/Login";
 import Personajes from "../pages/Personajes";
@@ -11,8 +11,8 @@ import DataProvider from "../context/DataContext.jsx";
 
 const Routing = () => {
   return (
-    <DataProvider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <DataProvider>
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
@@ -23,8 +23,8 @@ const Routing = () => {
           <Route path="/descripcion/:id" element={<Description />} />
           <Route path="*" element={<Error />} />
         </Routes>
-      </BrowserRouter>
-    </DataProvider>
+      </DataProvider>
+    </BrowserRouter>
   );
 };
 

@@ -63,7 +63,7 @@ const Login = () => {
             placeholder="Contraseña"
             autoComplete="off"
           />
-          <button>INICIAR SESIÓN</button>
+          <button>Iniciar sesión</button>
         </form>
         <p className="text-yellow-400 mt-3 font-semibold h-6">{error}</p>
       </main>

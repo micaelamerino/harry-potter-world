@@ -36,11 +36,14 @@ const Personajes = () => {
 
   return (
     <section className="p-4">
-      <Button/>
+      <Button />
 
-      <header className="flex flex-col items-center gap-4 mb-5">
-        <h1>Tus personajes favoritos</h1>
-        <form onSubmit={handleSubmit}>
+      <header className="flex flex-col gap-4 items-center mb-5">
+        <h1 className="my-4 text-center">Tus personajes favoritos</h1>
+        <form
+          onSubmit={handleSubmit}
+          className="flex gap-3 flex-wrap"
+        >
           <input
             className="bg-white text-black"
             type="text"
@@ -50,12 +53,12 @@ const Personajes = () => {
             autoComplete="on"
             onChange={handleChange}
           />
-          <button className="bg-white px-2 ml-2">Buscar</button>
+          <button className="bg-white px-2">Buscar</button>
         </form>
         <p className="text-yellow-400 font-semibold h-6">{error}</p>
       </header>
 
-      <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3 justify-items-center  text-center">
+      <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3 justify-items-center text-center">
         {personajes &&
           personajes?.map((p) => (
             <article key={p.id} className="cursor-pointer">
@@ -68,7 +71,7 @@ const Personajes = () => {
               />
               <button
                 onClick={() => navigate(`/descripcion/${p.id}`)}
-                className="bg-yellow-600 hover:bg-yellow-500 duration-200 rounded-full px-3 py-1 mt-2"
+                className="bg-yellow-600 hover:bg-yellow-500 hover:text-black duration-200 rounded-full px-3 py-1 mt-2"
               >
                 Ver más
               </button>
