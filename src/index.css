@@ -5,11 +5,13 @@
 @font-face {
     font-family: 'Berkshire';
     src: url("./fonts/BerkshireSwash-Regular.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Ysabeau';
     src: url("./fonts/YsabeauInfant-Regular.ttf");
+    font-display: swap;
 }
 
 body {

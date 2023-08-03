@@ -37,7 +37,7 @@ const Login = () => {
   return (
     <div className="login-background h-screen flex flex-col gap-2 items-center place-content-center">
       <header>
-        <img className="h-48" src={image} />
+        <img className="h-48 w-auto" src={image} alt="Encabezado original referido a 'Harry Potter'"/>
       </header>
       <main>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
