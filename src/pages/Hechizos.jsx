@@ -3,7 +3,7 @@ import { dataContext } from "../context/DataContext";
 import Button from "../components/Button";
 
 const Hechizos = () => {
-  const { data } = useContext(dataContext);
+  const { data, mensajeError } = useContext(dataContext);
   const datos = data.hechizos;
 
   const [hechizos, setHechizos] = useState(datos);
@@ -21,7 +21,7 @@ const Hechizos = () => {
     }
   };
 
-  return (
+  return hechizos ? (
     <section className="p-4">
       <Button />
       <header className="flex flex-col items-center gap-4 mb-5">
@@ -60,7 +60,7 @@ const Hechizos = () => {
         </table>
       </main>
     </section>
-  );
+  ) : (<p>{mensajeError}</p>);
 };
 
 export default Hechizos;

@@ -4,10 +4,10 @@ import Button from "../components/Button";
 import { useNavigate } from "react-router-dom";
 
 const Libros = () => {
-  const { data } = useContext(dataContext);
+  const { data, mensajeError } = useContext(dataContext);
   const libros = data.libros;
   const navigate = useNavigate();
-  return (
+  return libros ? (
     <section className="p-4">
       <Button />
 
@@ -36,7 +36,7 @@ const Libros = () => {
           ))}
       </main>
     </section>
-  );
+  ) : (<p>{mensajeError}</p>);
 };
 
 export default Libros;
