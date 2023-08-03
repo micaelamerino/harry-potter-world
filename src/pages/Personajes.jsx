@@ -68,9 +68,9 @@ const Personajes = () => {
               />
               <button
                 onClick={() => navigate(`/descripcion/${p.id}`)}
-                className="bg-yellow-600 hover:bg-opacity-80 rounded-full px-2 py-1 mt-2"
+                className="bg-yellow-600 hover:bg-yellow-500 duration-200 rounded-full px-3 py-1 mt-2"
               >
-                VER MÁS
+                Ver más
               </button>
             </article>
           ))}

@@ -28,9 +28,9 @@ const Libros = () => {
               />
               <button
                 onClick={() => navigate(`/detalles/${l.id}`)}
-                className="bg-yellow-600 hover:bg-opacity-80 rounded-full px-2 py-1"
+                className="bg-yellow-600 hover:bg-yellow-500 hover:text-black duration-200 rounded-full px-3 py-1"
               >
-                INFORMACIÓN
+                Información
               </button>
             </article>
           ))}

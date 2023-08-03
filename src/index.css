@@ -1,17 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
+
+@font-face {
+    font-family: 'Berkshire';
+    src: url("./fonts/BerkshireSwash-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url("./fonts/YsabeauInfant-Regular.ttf");
+}
+
+body {
+    font-family: Ysabeau;
     background-color: black;
     color: white;
+    font-size: 1.2rem;
 }
-h1{
-    font-family: 'Berkshire Swash', cursive;
-    font-size: x-large;
-}
-h2, h3, p, button, input, td, th{
-    font-family: 'Ysabeau Infant', sans-serif;
-    font-size: large;
+
+h1,
+a {
+    font-family: Berkshire;
+    font-size: 2rem;
 }

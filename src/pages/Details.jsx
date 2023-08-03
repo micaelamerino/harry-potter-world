@@ -21,11 +21,12 @@ const Details = () => {
               alt={`Imagen del libro ${search.titulo}`}
             />
             <div className="flex flex-col flex-wrap sm:w-80 mt-2">
-              <h3>Titulo: {search.titulo}</h3>
-              <h2>Titulo original: {search.titulo_original}</h2>
-              <p>Año de lanzamiento: {search.lanzamiento}</p>
-              <p>Autora: {search.autora}</p>
-              <p>Descripción: {search.descripcion}</p>
+              <h2 className="font-bold text-xl">Detalles del libro</h2>
+              <h3><b>Titulo:</b> {search.titulo}</h3>
+              <h2><b>Titulo original:</b> {search.titulo_original}</h2>
+              <p><b>Año de lanzamiento:</b> {search.lanzamiento}</p>
+              <p><b>Autora:</b> {search.autora}</p>
+              <p><b>Descripción:</b> {search.descripcion}</p>
             </div>
           </article>
           <Button />

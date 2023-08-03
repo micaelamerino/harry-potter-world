@@ -23,10 +23,11 @@ const Description = () => {
               alt={`Imagen del personaje ${search.personaje}`}
             />
             <div className="flex flex-wrap sm:w-80">
-            <h3>Nombre del personaje: {search.personaje}</h3>
-            <p>Interpretado por: {search.interpretado_por}</p>
-            <p>Casa de Hogwarts: {search.casaDeHogwarts}</p>
-            <p>Descripción: {search.descripcion}</p>
+            <h2 className="font-bold text-xl">Información del personaje</h2>
+            <h3><b>Nombre del personaje:</b> {search.personaje}</h3>
+            <p><b>Interpretado por:</b> {search.interpretado_por}</p>
+            <p><b>Casa de Hogwarts:</b> {search.casaDeHogwarts}</p>
+            <p><b>Descripción:</b> {search.descripcion}</p>
             </div>
           </article>
           <Button />

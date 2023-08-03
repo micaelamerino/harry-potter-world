@@ -10,14 +10,12 @@ import Description from "../pages/Description";
 import DataProvider from "../context/DataContext.jsx";
 
 const Routing = () => {
-  
   return (
     <DataProvider>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/home" element={<Navigate to={"/"} />} />
           <Route path="/personajes" element={<Personajes />} />
           <Route path="/detalles/:id" element={<Details />} />
           <Route path="/hechizos" element={<Hechizos />} />
